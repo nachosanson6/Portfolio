@@ -1,0 +1,15 @@
+.presentation {
+    font-family: Epilogue;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(60deg, #0538FF, #70E3F5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.presentationPage {
+    margin-top: 7%;
+}

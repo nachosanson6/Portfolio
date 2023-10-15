@@ -1,0 +1,15 @@
+.projects {
+    margin-top: 290px !important;
+}
+
+.project-title {
+    color: #DADADA;
+    text-shadow: 0px 4px 29px #650000;
+    font-family: Epilogue;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 158%;
+    /* 6.32rem */
+    letter-spacing: 2.12rem;
+}

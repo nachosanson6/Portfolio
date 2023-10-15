@@ -1,0 +1,24 @@
+.navigation {
+    background-color: transparent;
+    color: #DADADA !important;
+    font-family: Epilogue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal
+}
+
+.image-button {
+    background: transparent;
+    /* Fondo transparente para que se vea la imagen */
+    border: none;
+    /* Sin bordes */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logo {
+    color: white;
+}
