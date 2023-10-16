@@ -35,7 +35,7 @@ const Navigation = () => {
             <Navbar expand="lg ms-5 fixed-top">
                 <Navbar.Brand >
                     <img
-                        src="src\assets\images\logo.png"
+                        src="src\assets\images\LOGO.png"
                         width="80.382px"
                         height="70px"
                         className="d-inline-block align-top"
