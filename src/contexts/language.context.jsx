@@ -8,7 +8,6 @@ function LanguageProviderWrapper(props) {
 
     return (
 
-        // VOLVER A PONER invertedTheme EN VALUE
         <LanguageContext.Provider value={{ language, setLanguage }}>
             {props.children}
         </LanguageContext.Provider>
