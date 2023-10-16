@@ -1,10 +1,14 @@
 import { Nav, Navbar } from 'react-bootstrap'
 import './Navigation.css'
 import { Link, animateScroll as scroll } from 'react-scroll'
+import { useContext } from 'react'
+import { LanguageContext } from '../../contexts/language.context'
 
 
 
 const Navigation = () => {
+
+    const { language, setLanguage } = useContext(LanguageContext)
 
     const handleScrollToSection = (sectionId) => {
         // Obten la ruta actual
@@ -48,7 +52,13 @@ const Navigation = () => {
                             offset={-50}
                             onClick={() => handleScrollToSection('home')}
                         >
-                            Home
+                            {language === "english" && (
+                                "Home"
+                            )}
+                            {language === "spanish" && (
+                                "Inicio"
+                            )}
+
                         </Link>
                         <Link
                             to="projects"
@@ -57,7 +67,12 @@ const Navigation = () => {
                             offset={-50}
                             onClick={() => handleScrollToSection('projects')}
                         >
-                            Projects
+                            {language === "english" && (
+                                "Projects"
+                            )}
+                            {language === "spanish" && (
+                                "Poyectos"
+                            )}
                         </Link>
                         <Link
                             to="aboutMe"
@@ -66,7 +81,12 @@ const Navigation = () => {
                             offset={-50}
                             onClick={() => handleScrollToSection('aboutMe')}
                         >
-                            About
+                            {language === "english" && (
+                                "About"
+                            )}
+                            {language === "spanish" && (
+                                "Sobre mi"
+                            )}
                         </Link>
                     </Nav>
 
@@ -84,17 +104,26 @@ const Navigation = () => {
                     </Nav>
 
                     <Nav className='language me-5'>
-                        <button className="image-button">
-                            <img src="src\assets\images\Property 1=ENG.png" alt="Icono del botón" />
-                        </button>
-                        {/* <button className="image-button">
-                            <img src="src\assets\images\Property 1=ESP.png" alt="Icono del botón" />
-                        </button> */}
+                        {language === "english" && (
+                            <button className="image-button" onClick={() => setLanguage("spanish")}>
+                                <img src="src\assets\images\Property 1=ENG.png" alt="Icono del botón" />
+                            </button>
+                        )}
+                        {language === "spanish" && (
+                            <button className="image-button" onClick={() => setLanguage("english")}>
+                                <img src="src\assets\images\Property 1=ESP.png" alt="Icono del botón" />
+                            </button>
+                        )}
                     </Nav>
                     <Nav className='contact d-flex justify-content-end me-5'>
                         <Link to="contact" smooth={true} duration={500} offset={-50} onClick={() => handleScrollToSection('contact')}>
                             <button style={{ background: 'linear-gradient(60deg, #0538FF 13.4%, #70E3F5 86.6%', borderRadius: "1.5625rem", fontWeight: 'bold' }}>
-                                Contact
+                                {language === "english" && (
+                                    "Contact"
+                                )}
+                                {language === "spanish" && (
+                                    "Contacto"
+                                )}
                             </button>
                         </Link>
                     </Nav>

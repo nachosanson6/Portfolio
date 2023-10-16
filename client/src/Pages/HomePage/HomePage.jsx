@@ -5,7 +5,12 @@ import { Element } from 'react-scroll'
 import AboutMe from "../../components/AboutMe/AboutMe"
 import ContactForm from "../../components/ContactForm/ContactForm"
 import ThanksMessage from "../../components/thanksMessage/thanksMessage"
+
+
 const HomePage = () => {
+
+
+
     return (
         <>
             <Container>
