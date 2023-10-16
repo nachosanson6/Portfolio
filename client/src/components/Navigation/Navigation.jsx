@@ -93,12 +93,12 @@ const Navigation = () => {
                     <Nav className='social d-flex me-5 ms-auto'>
                         <a href="https://github.com/nachosanson6" target="_blank" rel="noopener noreferrer">
                             <button className="image-button mt-3">
-                                <img src="src\assets\images\Github.png" alt="Icono del botón" />
+                                <img src="src\assets\images\Github1.png" alt="Icono del botón" />
                             </button>
                         </a>
                         <a href="https://www.linkedin.com/in/ignacio-sanson/" target="_blank" rel="noopener noreferrer">
                             <button className="image-button">
-                                <img src="src\assets\images\LinkIn.png" alt="Icono del botón" />
+                                <img src="src\assets\images\LinkIn1.png" alt="Icono del botón" />
                             </button>
                         </a>
                     </Nav>
