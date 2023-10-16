@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
-import HomePage from '../pages/HomePage/HomePage'
+import HomePage from './../Pages/HomePage/HomePage'
 import FloorIsLava from '../pages/FloorIsLavaPage/FloorIsLavaPage'
 import BoardMaster from '../pages/BoardMasterPage/BoardMasterPage'
 import JamLink from '../pages/JamLinkPage/JamLinkPage'
