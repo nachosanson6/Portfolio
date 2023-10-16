@@ -4,7 +4,7 @@ import Projects from "./../../components/Projects/Projects"
 import { Element } from 'react-scroll'
 import AboutMe from "./../../components/AboutMe/AboutMe"
 import ContactForm from "./../../components/ContactForm/ContactForm"
-import ThanksMessage from "./../../components/thanksMessage/thanksMessage"
+import ThanksMessage from "./../../components/ThanksMessage/ThanksMessage"
 
 
 const HomePage = () => {
