@@ -3,7 +3,7 @@ import './Navigation.css'
 import { Link, animateScroll as scroll } from 'react-scroll'
 import { useContext } from 'react'
 import { LanguageContext } from '../../contexts/language.context'
-
+import { logo } from './../../assets/images/LOGO.png'
 
 
 const Navigation = () => {
@@ -111,7 +111,7 @@ const Navigation = () => {
                         )}
                         {language === "spanish" && (
                             <button className="image-button" onClick={() => setLanguage("english")}>
-                                <img src="src\assets\images\Property 1=ESP.png" alt="Icono del botón" />
+                                <img src="./../../src/assets/images/Property 1=ESP.png" alt="Icono del botón" />
                             </button>
                         )}
                     </Nav>
