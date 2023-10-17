@@ -12,7 +12,12 @@ const ContactForm = () => {
 
     const [state, handleSubmit] = useForm("xdorydbr");
     if (state.succeeded) {
-        return <p>Thanks for joining!</p>;
+
+        return (
+            <div className='d-flex '>
+                <p className='thanks' style={{ textAlign: 'center' }}>Thanks for joining!</p>;
+            </div>
+        )
     }
     return (
         <>
