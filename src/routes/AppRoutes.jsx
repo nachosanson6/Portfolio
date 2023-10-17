@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom'
-import HomePage from './../Pages/HomePage/HomePage'
-import FloorIsLava from './../Pages/FloorIsLavaPage/FloorIsLavaPage'
-import BoardMaster from './../Pages/BoardMasterPage/BoardMasterPage'
-import JamLink from './../Pages/JamLinkPage/JamLinkPage'
+import HomePage from './../pages/HomePage/HomePage'
+import FloorIsLava from './../pages/FloorIsLavaPage/FloorIsLavaPage'
+import BoardMaster from './../pages/BoardMasterPage/BoardMasterPage'
+import JamLink from './../pages/JamLinkPage/JamLinkPage'
 
 
 const AppRoutes = () => {
