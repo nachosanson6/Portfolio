@@ -67,7 +67,7 @@ const Projects = () => {
                     <div className="ms-5 mt-5">
                         <Row>
                             <Col md={6}>
-                                <img className="mt-5" src="src\assets\images\CARD FLOOR IS LAVA.png" alt="" />
+                                <img className="mt-5" src={floorIsLavaCard} alt="" />
                             </Col>
                             <Col md={3} className="mt-5" style={{ color: 'white', fontFamily: 'Epilogue' }}>
                                 <h2 className="mt-5" style={{ fontSize: '4 rem', fontWeight: 'bold' }}>Floor is lava</h2>
@@ -86,14 +86,14 @@ const Projects = () => {
                                 <Link to={'/boardmaster'} style={{ color: 'white' }}>Ver más</Link>
                             </Col >
                             <Col className="mt-5" md={6}>
-                                <img className="mt-5" src="src\assets\images\CARD BOARMASTER.png" alt="" />
+                                <img className="mt-5" src={boardMasterCard} alt="" />
                             </Col>
                         </Row >
                     </div>
                     <div className="ms-5 mt-5">
                         <Row>
                             <Col className="mt-5" md={6}>
-                                <img className="mt-5" src="src\assets\images\CARD JAMLINK.png" alt="" />
+                                <img className="mt-5" src={jamLinkCard} alt="" />
                             </Col>
                             <Col md={3} className="mt-5" style={{ color: 'white', fontFamily: 'Epilogue' }}>
                                 <h2 className="mt-5" style={{ fontSize: '4 rem', fontWeight: 'bold' }}>JamLink</h2>

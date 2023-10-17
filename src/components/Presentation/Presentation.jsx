@@ -37,7 +37,7 @@ const Presentation = () => {
                         </Col>
                     </Row>
                     <div className='d-flex flex-column align-items-center'>
-                        <img className='mt-5' src="src\assets\images\ARROW DOWN DIRECTION.png" alt="" />
+                        <img className='mt-5' src={arrowDown} alt="" />
                     </div>
                 </div>
             )}
