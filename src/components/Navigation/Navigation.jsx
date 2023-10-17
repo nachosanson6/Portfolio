@@ -3,7 +3,7 @@ import './Navigation.css'
 import { Link, animateScroll as scroll } from 'react-scroll'
 import { useContext } from 'react'
 import { LanguageContext } from '../../contexts/language.context'
-import { logo } from './../../assets/images/LOGO.png'
+import logo from './../../assets/images/LOGO.png'
 
 
 const Navigation = () => {
@@ -35,7 +35,7 @@ const Navigation = () => {
             <Navbar expand="lg ms-5 fixed-top">
                 <Navbar.Brand >
                     <img
-                        src="src\assets\images\LOGO.png"
+                        src={logo}
                         width="80.382px"
                         height="70px"
                         className="d-inline-block align-top"
