@@ -22,3 +22,8 @@
 .logo {
     color: white;
 }
+
+.navbar-toggler-icon {
+    color: #fff;
+    /* Cambia a tu color deseado, en este caso, blanco (#fff) */
+}

@@ -48,7 +48,7 @@ const Navigation = () => {
                     />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
+                <Navbar.Collapse id="basic-navbar-nav" >
                     <Nav className="sections d-flex justify-content-start w-full gap-5 ms-5">
                         <Link
                             to="home"

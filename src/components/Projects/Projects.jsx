@@ -82,7 +82,7 @@ const Projects = () => {
                             </Col>
                             <Col md={3} className="mt-5" style={{ color: 'white', fontFamily: 'Epilogue' }}>
                                 <h2 className="mt-5" style={{ fontSize: '4 rem', fontWeight: 'bold' }}>BoardMaster</h2>
-                                <p style={{ fontSize: '2.5 rem' }}>Aug 2023</p>
+                                <p style={{ fontSize: '2.5 rem' }}>Ago 2023</p>
                                 <Link to={'/boardmaster'} style={{ color: 'white' }}>Ver más</Link>
                             </Col >
                             <Col className="mt-5" md={6}>
@@ -97,7 +97,7 @@ const Projects = () => {
                             </Col>
                             <Col md={3} className="mt-5" style={{ color: 'white', fontFamily: 'Epilogue' }}>
                                 <h2 className="mt-5" style={{ fontSize: '4 rem', fontWeight: 'bold' }}>JamLink</h2>
-                                <p style={{ fontSize: '2.5 rem' }}>Sep 2023</p>
+                                <p style={{ fontSize: '2.5 rem' }}>Sept 2023</p>
                                 <Link to={'/jamlink'} style={{ color: 'white' }}>Ver más</Link>
                             </Col >
                         </Row >
