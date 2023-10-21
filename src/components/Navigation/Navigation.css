@@ -8,6 +8,10 @@
     line-height: normal
 }
 
+.sections {
+    cursor: pointer;
+}
+
 .image-button {
     background: transparent;
     /* Fondo transparente para que se vea la imagen */
