@@ -76,7 +76,7 @@ const Navigation = () => {
                                 "Projects"
                             )}
                             {language === "spanish" && (
-                                "Poyectos"
+                                "Proyectos"
                             )}
                         </Link>
                         <Link
@@ -122,7 +122,7 @@ const Navigation = () => {
                     </Nav>
                     <Nav className='contact d-flex justify-content-end me-5'>
                         <Link to="contact" smooth={true} duration={500} offset={-50} onClick={() => handleScrollToSection('contact')}>
-                            <button style={{ background: 'linear-gradient(60deg, #0538FF 13.4%, #70E3F5 86.6%', borderRadius: "1.5625rem", fontWeight: 'bold' }}>
+                            <button style={{ boxShadow: '1px 0px 21px 0px #3D73EB', padding: '5px', background: 'linear-gradient(60deg, #0538FF 13.4%, #70E3F5 86.6%', borderRadius: "1.5625rem", fontWeight: 'bold' }}>
                                 {language === "english" && (
                                     "Contact"
                                 )}

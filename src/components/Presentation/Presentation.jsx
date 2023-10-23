@@ -24,7 +24,7 @@ const Presentation = () => {
                                 <h3 style={{ color: 'white' }}>Full-Stack Web Developer</h3>
                                 <h5 className='mt-5 text-center' style={{ color: 'white' }}>I'm a Full-Stack Web Developer from Madrid</h5>
                                 <a href={my_cv} download="my_cv.pdf">
-                                    <button className='mt-3 ' style={{ fontSize: '1.5rem', background: 'linear-gradient(60deg, #0538FF 13.4%, #70E3F5 86.6%', borderRadius: "1.5625rem" }}>
+                                    <button className='mt-3 ' style={{ boxShadow: '1px 0px 21px 0px #3D73EB', fontWeight: 'bold', fontSize: '1.5rem', background: 'linear-gradient(60deg, #0538FF 13.4%, #70E3F5 86.6%', borderRadius: "1.5625rem" }}>
                                         Download CV
                                     </button>
                                 </a>
@@ -50,7 +50,7 @@ const Presentation = () => {
                                 <h3 style={{ color: 'white' }}>Desarrollador web Full-Stack</h3>
                                 <h5 className='mt-5 text-center' style={{ color: 'white' }}>Soy un desarrollador web Full-Stack de Madrid</h5>
                                 <a href={mi_cv} download="mi_cv.pdf">
-                                    <button className='mt-3 ' style={{ fontSize: '1.5rem', background: 'linear-gradient(60deg, #0538FF 13.4%, #70E3F5 86.6%', borderRadius: "1.5625rem" }}>
+                                    <button className='mt-3 ' style={{ boxShadow: '1px 0px 21px 0px #3D73EB', fontWeight: 'bold', fontSize: '1.5rem', background: 'linear-gradient(60deg, #0538FF 13.4%, #70E3F5 86.6%', borderRadius: "1.5625rem" }}>
                                         Descargar CV
                                     </button>
                                 </a>
