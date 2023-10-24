@@ -28,6 +28,11 @@ const FloorIsLava = () => {
                                     See more in GitHub
                                 </button>
                             </a>
+                            <a href="https://nachosanson6.github.io/Floor_is_lava/" target="_blank" rel="noopener noreferrer">
+                                <button style={{ background: 'linear-gradient(60deg, #0538FF 13.4%, #70E3F5 86.6%', borderRadius: "1.5625rem", fontWeight: 'bold' }} className='linkButton ms-5'>
+                                    Go to the web
+                                </button>
+                            </a>
                         </div>
                     </Row>
                 )}
@@ -46,6 +51,11 @@ const FloorIsLava = () => {
                                 <button style={{ background: 'linear-gradient(60deg, #0538FF 13.4%, #70E3F5 86.6%', borderRadius: "1.5625rem", fontWeight: 'bold' }} className='linkButton'>
                                     Ver más en GitHub
                                 </button>
+                                <a href="https://nachosanson6.github.io/Floor_is_lava/" target="_blank" rel="noopener noreferrer">
+                                    <button style={{ background: 'linear-gradient(60deg, #0538FF 13.4%, #70E3F5 86.6%', borderRadius: "1.5625rem", fontWeight: 'bold' }} className='linkButton ms-5'>
+                                        Ir a la web
+                                    </button>
+                                </a>
                             </a>
                         </div>
                     </Row>
